@@ -46,6 +46,7 @@ Each screen has its own file, making the application easier to understand and mo
 
 ## Architecture
 
+
 ```mermaid
 flowchart TD
     A[RESQ-MESH App] --> B[Expo Router]
@@ -55,6 +56,8 @@ flowchart TD
     C -.-> F[Future Backend]
     F -.-> G[Database]
     F -.-> H[LoRa Network]
+```
+
 ```
 
 ## Design Decisions
